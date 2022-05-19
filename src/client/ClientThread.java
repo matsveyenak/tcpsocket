@@ -53,8 +53,7 @@ public class ClientThread extends Thread
                 menu = ConsoleUtils.AUTH_MENU; //change console menu
 
             System.out.print(menu);
-
-
+            
             /**
              * Scan a command that client types.
              * There are 3 valid commands that can be sent by the client:
@@ -169,7 +168,6 @@ public class ClientThread extends Thread
         {
             System.out.println("Please properly authenticate to do this operation.");
         }
-
     }
 
     /**
